@@ -55,7 +55,7 @@ namespace SiparisYonetimSistemi.BLL.Repository.Service
         }
         private CargoRepository _cargoService;
 
-        public CargoRepository CargoService
+        public CargoRepository CargoService 
         {
             get { return _cargoService; }
             set { _cargoService = value; }
